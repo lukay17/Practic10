@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_login"
+    app:startDestination="@id/onBoardingPage1">
+
+    <fragment
+        android:id="@+id/onBoardingPage1"
+        android:name="com.lega.practic10.onboarding.OnBoardingPage1"
+        android:label="fragment_on_boarding_page1"
+        tools:layout="@layout/fragment_on_boarding_page1" >
+        <action
+            android:id="@+id/to_onBoardingPage2"
+            app:destination="@id/onBoardingPage2" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingPage2"
+        android:name="com.lega.practic10.onboarding.OnBoardingPage2"
+        android:label="fragment_on_boarding_page2"
+        tools:layout="@layout/fragment_on_boarding_page2" >
+        <action
+            android:id="@+id/to_onBoardingPage3"
+            app:destination="@id/onBoardingPage3" />
+        <action
+            android:id="@+id/to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/anim_righttoleft" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingPage3"
+        android:name="com.lega.practic10.onboarding.OnBoardingPage3"
+        android:label="fragment_on_boarding_page3"
+        tools:layout="@layout/fragment_on_boarding_page3" >
+        <action
+            android:id="@+id/to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/anim_righttoleft" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.lega.practic10.fragment.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/to_homeActivity"
+            app:destination="@id/nav_graph_main"/>
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.lega.practic10.fragment.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+    <include app:graph="@navigation/nav_graph_main"/>
+</navigation>

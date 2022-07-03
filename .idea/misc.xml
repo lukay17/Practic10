@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/lukay/AndroidStudioProjects/Practic10/app/src/main/res/layout/activity_home.xml" value="0.5794238683127572" />
+        <entry key="..\:/Users/lukay/AndroidStudioProjects/Practic10/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lukay/AndroidStudioProjects/Practic10/app/src/main/res/layout/activity_main.xml" value="0.6333333333333333" />
+        <entry key="..\:/Users/lukay/AndroidStudioProjects/Practic10/app/src/main/res/layout/activity_view.xml" value="0.6333333333333333" />
+        <entry key="..\:/Users/lukay/AndroidStudioProjects/Practic10/app/src/main/res/layout/fragment_car.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lukay/AndroidStudioProjects/Practic10/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lukay/AndroidStudioProjects/Practic10/app/src/main/res/layout/fragment_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lukay/AndroidStudioProjects/Practic10/app/src/main/res/layout/fragment_montain.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/lukay/AndroidStudioProjects/Practic10/app/src/main/res/layout/fragment_on_boarding_page1.xml" value="0.6333333333333333" />
+        <entry key="..\:/Users/lukay/AndroidStudioProjects/Practic10/app/src/main/res/layout/fragment_on_boarding_page2.xml" value="0.6333333333333333" />
+        <entry key="..\:/Users/lukay/AndroidStudioProjects/Practic10/app/src/main/res/layout/fragment_on_boarding_page3.xml" value="0.6333333333333333" />
+        <entry key="..\:/Users/lukay/AndroidStudioProjects/Practic10/app/src/main/res/layout/fragment_register.xml" value="0.6333333333333333" />
+        <entry key="..\:/Users/lukay/AndroidStudioProjects/Practic10/app/src/main/res/layout/fragment_user.xml" value="0.6333333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
